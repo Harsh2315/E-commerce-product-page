@@ -1,0 +1,139 @@
+*{
+   margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+@media (min-width: 380px)and (max-width:1000px){
+    position: relative;
+    font-size: 12.5px;
+    flex-direction: row;
+    }
+
+  }  
+ 
+
+
+/*--------------------------Navigation Section--------------------------*/
+.navbar {
+ word-spacing: 5px;
+ margin: 10px;
+ padding: 10px;
+}
+
+.list a {
+ display: inline;
+ font-size: 30px;
+ color: black;
+}
+
+.list a:hover {
+ color: red;
+}
+
+/*----------------------------Product Image Section ----------------------------*/
+.photo {
+flex : 1 1 350px;
+ height:auto;
+ max-width: 350px;
+ margin:20px;
+}
+.photo img{
+   width:100%;
+   height:auto;
+}
+.img2 {
+ width: 60px;
+ height: 60px;
+ border: 1px solid black;
+ border-radius: 3px;
+ padding: 7px;
+ margin-left: 10px;
+ margin-top: 20px;
+}
+
+/*-------------------------------Product Details Section---------------------------*/
+.container1 {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 20px;
+}
+
+.heading2 {
+ color: black;
+ display: block;
+ flex:  1 1 500px;
+ padding: 20px; 
+ font-size: 25px; 
+ text-align: start;
+}
+
+.head {
+ color: #d23276;
+ margin-top: 10px;
+}
+
+.para {
+ color: #e22d2d;
+}
+
+.h2 {
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.s {
+ display: flex;
+ justify-content: start;
+ margin-top: 20px 0;
+}
+
+.option {
+ height: 20px;
+ margin-top: 5px;
+ margin-left: 10px;
+}
+
+.row {
+ display: flex;
+ justify-content: space-between;
+ flex-flow: nowrap;
+ padding: 0px 0px 20px;
+ font-size: 20px;
+ width:30%;
+}
+
+.col-9-12 {
+ margin-left: 70px;
+}
+
+/*--------------------------Buttons style-----------------------------------*/
+.button .buy{
+ display: inline;
+ padding: 10px 20px;
+ border: 2px solid black;
+ font-size: 20px;
+ margin: 10px auto;
+ text-align: center;
+ justify-content: center;
+}
+.button{
+   background-color: #776871;
+   border-radius: 50px;
+   height: 30px;
+}
+.button:hover {
+ color: blue;
+}
+
+.buy {
+ background-color: #4A8FE7;
+ border-radius: 50px;
+ height:30px;
+ width:90px;
+}
+
+.buy:hover {
+ color: #e22d2d;
+}
